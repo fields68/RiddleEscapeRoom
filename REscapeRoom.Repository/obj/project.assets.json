@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "REscapeRoom.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/REscapeRoom.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/REscapeRoom.Data.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "REscapeRoom.Data/1.0.0": {
+      "type": "project",
+      "path": "../REscapeRoom.Data/REscapeRoom.Data.csproj",
+      "msbuildProject": "../REscapeRoom.Data/REscapeRoom.Data.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "REscapeRoom.Data >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\clarf\\.nuget\\packages\\": {}
@@ -31,7 +50,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\ElevenFiftyProjects\\codingFoundations\\assignments\\RiddleEscapeRoom\\REscapeRoom.Data\\REscapeRoom.Data.csproj": {
+              "projectPath": "C:\\ElevenFiftyProjects\\codingFoundations\\assignments\\RiddleEscapeRoom\\REscapeRoom.Data\\REscapeRoom.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -49,16 +72,31 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.16, 6.0.16]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.16, 6.0.16]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.16, 6.0.16]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

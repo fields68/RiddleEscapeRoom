@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "UGBFGNle2WnLNUIyAtu/Wduy/5db9Sd6GcayOZ2YZlXlOT+27jhOMAC2DlWiK3ptbv4BUix+jNoV0pdN04c/2Q==",
+  "dgSpecHash": "ptoBPPuRPpVX32ea6mCwjRpzvHertwdK/0FIEs2Ay/Q34sheWEw6m49xblzTpX4/lt2oHEmXC+3bYmQX+1+G3w==",
   "success": true,
   "projectFilePath": "C:\\ElevenFiftyProjects\\codingFoundations\\assignments\\RiddleEscapeRoom\\REscapeRoom.Data\\REscapeRoom.Data.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\clarf\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\clarf\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\clarf\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512"
+  ],
   "logs": []
 }

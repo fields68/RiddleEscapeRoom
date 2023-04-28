@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "REscapeRoom.Repository/1.0.0": {
+        "dependencies": {
+          "REscapeRoom.Data": "1.0.0"
+        },
+        "runtime": {
+          "REscapeRoom.Repository.dll": {}
+        }
+      },
+      "REscapeRoom.Data/1.0.0": {
+        "runtime": {
+          "REscapeRoom.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "REscapeRoom.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "REscapeRoom.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

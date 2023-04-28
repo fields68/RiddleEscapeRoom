@@ -12,49 +12,49 @@ public class Rooms
         // room hints, details
     }
 
-    public void EasyRiddleCF()
-    {
-        switch (riddleID)
-        {
-            case 0:
-                break;
-            case 1:
-                break;
-            case 2:
-                break;
-            default:
-                break;
-        }
+    // public void EasyRiddleCF() //? Add back once riddleID is populated
+    // {
+    //     switch (riddleID)
+    //     {
+    //         case 0:
+    //             break;
+    //         case 1:
+    //             break;
+    //         case 2:
+    //             break;
+    //         default:
+    //             break;
+    //     }
 
-    }
-    public void MiddleRiddleCF()
-    {
-        switch (riddleID)
-        {
-            case 0:
-                break;
-            case 1:
-                break;
-            case 2:
-                break;
-            default:
-                break;
-        }
-    }
-    public void HardRiddleCF()
-    {
-        switch (riddleID)
-        {
-            case 0:
-                break;
-            case 1:
-                break;
-            case 2:
-                break;
-            default:
-                break;
-        }
-    }
+    // }
+    // public void MiddleRiddleCF()
+    // {
+    //     switch (riddleID)
+    //     {
+    //         case 0:
+    //             break;
+    //         case 1:
+    //             break;
+    //         case 2:
+    //             break;
+    //         default:
+    //             break;
+    //     }
+    // }
+    // public void HardRiddleCF()
+    // {
+    //     switch (riddleID)
+    //     {
+    //         case 0:
+    //             break;
+    //         case 1:
+    //             break;
+    //         case 2:
+    //             break;
+    //         default:
+    //             break;
+    //     }
+    // }
 
     // TODO: May need to incorporate into code later
     // ! had 11 references in Haunted House
