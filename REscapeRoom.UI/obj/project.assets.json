@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "REscapeRoom.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/REscapeRoom.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/REscapeRoom.Data.dll": {}
+        }
+      },
+      "REscapeRoom.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "REscapeRoom.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/REscapeRoom.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/REscapeRoom.Repository.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "REscapeRoom.Data/1.0.0": {
+      "type": "project",
+      "path": "../REscapeRoom.Data/REscapeRoom.Data.csproj",
+      "msbuildProject": "../REscapeRoom.Data/REscapeRoom.Data.csproj"
+    },
+    "REscapeRoom.Repository/1.0.0": {
+      "type": "project",
+      "path": "../REscapeRoom.Repository/REscapeRoom.Repository.csproj",
+      "msbuildProject": "../REscapeRoom.Repository/REscapeRoom.Repository.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "REscapeRoom.Data >= 1.0.0",
+      "REscapeRoom.Repository >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\clarf\\.nuget\\packages\\": {}
@@ -31,7 +69,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\ElevenFiftyProjects\\codingFoundations\\assignments\\RiddleEscapeRoom\\REscapeRoom.Data\\REscapeRoom.Data.csproj": {
+              "projectPath": "C:\\ElevenFiftyProjects\\codingFoundations\\assignments\\RiddleEscapeRoom\\REscapeRoom.Data\\REscapeRoom.Data.csproj"
+            },
+            "C:\\ElevenFiftyProjects\\codingFoundations\\assignments\\RiddleEscapeRoom\\REscapeRoom.Repository\\REscapeRoom.Repository.csproj": {
+              "projectPath": "C:\\ElevenFiftyProjects\\codingFoundations\\assignments\\RiddleEscapeRoom\\REscapeRoom.Repository\\REscapeRoom.Repository.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
