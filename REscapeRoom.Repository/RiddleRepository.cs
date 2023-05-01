@@ -12,8 +12,8 @@ public class RiddleRepository
 
     public bool AddRiddle(Riddle riddle)
     {
-        if(riddle is null)
-        return false;
+        if (riddle is null)
+            return false;
         else
         {
             _count++;

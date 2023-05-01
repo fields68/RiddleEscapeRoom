@@ -1,4 +1,4 @@
-
+// Clarissa's Brain is still working on making this piece of the puzzle fit.
 public class RoomHint
 {
     // Unique Identifier

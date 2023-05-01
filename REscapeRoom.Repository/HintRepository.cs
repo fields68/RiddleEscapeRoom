@@ -1,3 +1,4 @@
+// Ther creation of the hints list
 public class HintRepository
 {
     public HintRepository()
@@ -18,13 +19,13 @@ public class HintRepository
         var eHint1_2 = new RoomHint
         {
             Difficulty = (int)RiddleDifficulty.Easy,
-            HintID = 1,
+            HintID = 2,
             Hint = "Easy Fire hint 2"
         };
         var eHint1_3 = new RoomHint
         {
             Difficulty = (int)RiddleDifficulty.Easy,
-            HintID = 1,
+            HintID = 3,
             Hint = "Easy Fire hint 3"
         };
         _hintDB.Add(eHint1_1);
