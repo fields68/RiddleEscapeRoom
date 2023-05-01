@@ -1,16 +1,17 @@
 
-public class Rooms
+public class RoomHint
 {
     // Unique Identifier
-    public int ID { get; set; }
+    public int Difficulty { get; set; }
+    public int HintID { get; set; }
+    public string Hint { get; set; }
+    // public List<Hint> Hints { get; set; } = new List<Hint>();
+    // public List<Hint> Hints { get; set; } = new List<Hint>();
 
-    // Room theme
-    public string Theme { get; set; } = string.Empty;
-
-    public void AddRoomHints()
-    {
-        // room hints, details
-    }
+    // public void AddRoomHints()
+    // {
+    // room hints, details
+    // }
 
     // public void EasyRiddleCF() //? Add back once riddleID is populated
     // {

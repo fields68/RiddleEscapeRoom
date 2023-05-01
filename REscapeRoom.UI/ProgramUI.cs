@@ -3,13 +3,20 @@ using static System.Console;
 
 public class ProgramUI
 {
+    private readonly EscapeRoomRepository _eRoomRepo = new EscapeRoomRepository();
+    private EscapeRoom _eRoom;
     private bool IsRunning = true;
 
-    // public ProgramUI()
-    // {
-    //     SeedData();
-    //     _room = _rEscapeRepo.GetEscapeRoom();
-    // }
+    public ProgramUI()
+    {
+        SeedData();
+        //     _room = _rEscapeRepo.GetEscapeRoom();
+    }
+
+    private void SeedData()
+    {
+
+    }
 
     public void Run()
     {
