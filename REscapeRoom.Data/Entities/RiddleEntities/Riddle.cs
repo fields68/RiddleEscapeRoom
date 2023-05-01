@@ -1,23 +1,10 @@
 
-public abstract class Riddle
+public class Riddle
 {
     public int ID { get; set; }
 
-    public List<string> RiddleQuestion { get; set; } = new List<string>();
+    // we can assign each riddle with a difficulty
+    public RiddleDifficulty RiddleDifficulty { get; set; }
 
-    public string RiddleAnswer { get; set; }
-
-    public bool IsCorrectAnswer
-    {
-        get
-        {
-            return (playerInput == RiddleAnswer) ? true : false;
-        }
-    }
-
-    public void DecreaseHealth(int incorrectAnswer = 1)
-    {
-        HealthPoints -= incorrectAnswer;
-    }
-
+    public List<Question> Questions { get; set; } = new List<Question>();
 }
