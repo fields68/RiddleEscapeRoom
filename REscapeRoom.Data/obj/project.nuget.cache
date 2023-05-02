@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ptoBPPuRPpVX32ea6mCwjRpzvHertwdK/0FIEs2Ay/Q34sheWEw6m49xblzTpX4/lt2oHEmXC+3bYmQX+1+G3w==",
+  "dgSpecHash": "9gd+Guxzk1+kApFkj3B1ZKp1pqbyr+usbLvL/iYBxb9rc9N02WoR6vMskM5hTdU287InL0LgrEdxO38tB27MdA==",
   "success": true,
-  "projectFilePath": "C:\\ElevenFiftyProjects\\codingFoundations\\assignments\\RiddleEscapeRoom\\REscapeRoom.Data\\REscapeRoom.Data.csproj",
+  "projectFilePath": "C:\\ElevenFiftyProjects\\MyProjects\\RiddleEscapeRoom\\REscapeRoom.Data\\REscapeRoom.Data.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\clarf\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
-    "C:\\Users\\clarf\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
-    "C:\\Users\\clarf\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512"
+    "C:\\Users\\seand\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\seand\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\seand\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512"
   ],
   "logs": []
 }
