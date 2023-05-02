@@ -35,6 +35,7 @@ public class EscapeRoomRepository
     {
         var escapeRoom = new EscapeRoom();
         escapeRoom.HintsInRoom = _escRoomHintRepo.GetHints();
+        // escapeRoom.RiddlesInRoom = _escRoomRiddleRepo.//* GetRiddle() or what ever it is called.
         AddEscapeRoom(escapeRoom);
     }
 }

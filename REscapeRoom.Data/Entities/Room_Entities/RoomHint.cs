@@ -11,18 +11,49 @@ public class RoomHint
 
     public override string ToString()
     {
-        return "HintID " + HintID + "\nDifficulty: " + Difficulty;
+        // switch (Difficulty)
+        // {
+        //     case RiddleDifficulty.Easy:
+        //         string hintSentence1 = PrintHint(1);
+        //         string hintSentence2 = PrintHint(1);
+        //         string hintSentence3 = PrintHint(1);
+        //         break;
+        //     case RiddleDifficulty.Medium:
+        //         break;
+        //     case RiddleDifficulty.Hard:
+        //         break;
+        //     default:
+        //         break;
+        // }
+
+        return "HintID " + HintID + "\nDifficulty: " + Difficulty + "\n Sentence " + Hints[0];
     }
 
-    public void PrintHint()
-    {
-        {
-            foreach (Hint hint in Hints)
-            {
-                System.Console.WriteLine(hint);
-            }
-        }
-    }
+    // public string PrintHint(int i)
+    // {
+    //     string sHint1 = "";
+    //     string sHint2 = "";
+    //     string sHint3 = "";
+    //     foreach (Hint hint in Hints)
+    //     {
+    //         string hintVar = "";
+    //         int _count = 0;
+    //         _count++;
+    //         sHint + "{i}" = hint;
+    //         System.Console.WriteLine(hint);
+    //     }
+    //     switch (i)
+    //     {
+    //         case 1:
+    //             break;
+    //         default:
+    //             break;
+    //     }
+
+    // return Hints;
+    // {
+    // }
+    // }
     // public void AddRoomHints()
     // {
     // room hints, details
