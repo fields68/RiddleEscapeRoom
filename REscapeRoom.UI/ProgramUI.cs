@@ -35,7 +35,7 @@ public class ProgramUI
 
         while (IsRunning)
         {
-            Clear();
+            // Clear();
             WriteLine("Are you able to escape each room by answering three riddles, Please make a selection:\n" +
             "1. Start Game\n" +
             "2. End Game\n");
@@ -123,9 +123,11 @@ public class ProgramUI
         //! Testing variables to see if they work: Currently only 'cuurentRoom' pulls something
         var currentRoom = _escRoom.RoomID;
         var currentRiddle = _escRoom.RiddlesInRoom;
+        var indexesInList = _escRoom.RiddlesInRoom.Count;
+        var indexesInHList = _escRoom.HintsInRoom.Count;
         var currentHint = _escRoom.HintsInRoom;
         // System.Console.WriteLine(_escRoom.RiddlesInRoom[currentRoom]);
-        System.Console.WriteLine($"Pulling data from EscapRoomRepository:\n {currentRoom}\n {currentRiddle}\n {currentHint}");
+        System.Console.WriteLine($"Pulling data from EscapRoomRepository:\n {currentRoom}\n {currentRiddle}\n {currentHint}\n Riddle List Count: {indexesInList}\n Hint List Count: {indexesInHList}");
         easyRiddleCorrect = true;
         IsRunning = CloseGame(); // Line for testing purposes only, delete in real game
         /*

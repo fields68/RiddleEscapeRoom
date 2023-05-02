@@ -34,6 +34,7 @@ public class EscapeRoomRepository
     public void SeedEscapeRoomData()
     {
         var escapeRoom = new EscapeRoom();
+        escapeRoom.HintsInRoom = _escRoomHintRepo.GetHints();
         AddEscapeRoom(escapeRoom);
     }
 }

@@ -8,7 +8,7 @@ public class EscapeRoom
     // Riddle for the rooms
     public List<Riddle> RiddlesInRoom { get; set; } = new List<Riddle>();
 
-    // The room hints
+    // The room hints //? Room.cs
     public List<RoomHint> HintsInRoom { get; set; } = new List<RoomHint>();
 
 }

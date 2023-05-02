@@ -2,12 +2,27 @@
 public class RoomHint
 {
     // Unique Identifier
-    public int Difficulty { get; set; }
+    public RiddleDifficulty Difficulty { get; set; }
     public int HintID { get; set; }
-    public string Hint { get; set; }
+    // public string Hint { get; set; }
     // public List<Hint> Hints { get; set; } = new List<Hint>();
-    // public List<Hint> Hints { get; set; } = new List<Hint>();
+    public List<Hint> Hints { get; set; } = new List<Hint>();
 
+
+    public override string ToString()
+    {
+        return "HintID " + HintID + "\nDifficulty: " + Difficulty;
+    }
+
+    public void PrintHint()
+    {
+        {
+            foreach (Hint hint in Hints)
+            {
+                System.Console.WriteLine(hint);
+            }
+        }
+    }
     // public void AddRoomHints()
     // {
     // room hints, details
