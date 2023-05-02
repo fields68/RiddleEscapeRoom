@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ElevenFiftyProjects\\codingFoundations\\assignments\\RiddleEscapeRoom\\REscapeRoom.Data\\REscapeRoom.Data.csproj": {}
+    "C:\\ElevenFiftyProjects\\MyProjects\\RiddleEscapeRoom\\REscapeRoom.Data\\REscapeRoom.Data.csproj": {}
   },
   "projects": {
-    "C:\\ElevenFiftyProjects\\codingFoundations\\assignments\\RiddleEscapeRoom\\REscapeRoom.Data\\REscapeRoom.Data.csproj": {
+    "C:\\ElevenFiftyProjects\\MyProjects\\RiddleEscapeRoom\\REscapeRoom.Data\\REscapeRoom.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ElevenFiftyProjects\\codingFoundations\\assignments\\RiddleEscapeRoom\\REscapeRoom.Data\\REscapeRoom.Data.csproj",
+        "projectUniqueName": "C:\\ElevenFiftyProjects\\MyProjects\\RiddleEscapeRoom\\REscapeRoom.Data\\REscapeRoom.Data.csproj",
         "projectName": "REscapeRoom.Data",
-        "projectPath": "C:\\ElevenFiftyProjects\\codingFoundations\\assignments\\RiddleEscapeRoom\\REscapeRoom.Data\\REscapeRoom.Data.csproj",
-        "packagesPath": "C:\\Users\\clarf\\.nuget\\packages\\",
-        "outputPath": "C:\\ElevenFiftyProjects\\codingFoundations\\assignments\\RiddleEscapeRoom\\REscapeRoom.Data\\obj\\",
+        "projectPath": "C:\\ElevenFiftyProjects\\MyProjects\\RiddleEscapeRoom\\REscapeRoom.Data\\REscapeRoom.Data.csproj",
+        "packagesPath": "C:\\Users\\seand\\.nuget\\packages\\",
+        "outputPath": "C:\\ElevenFiftyProjects\\MyProjects\\RiddleEscapeRoom\\REscapeRoom.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\clarf\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\seand\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
