@@ -25,20 +25,8 @@ public class HintRepository
         {
             _count++;
             roomhint.HintID = _count;
-            // _hintDB.Add(roomhint);
             _rHintDB.Add(roomhint);
             return true;
-        }
-    }
-
-    public void addHint()
-    {
-        // _hintDB.Add(new Hint() { HintID = 1, sentenceH = "Easy Fire hint 1" });
-        // _hintDB.Add(new Hint() { HintID = 2, sentenceH = "Easy Fire hint 2" });
-        // _hintDB.Add(new Hint() { HintID = 3, sentenceH = "Easy Fire hint 3" });
-        foreach (Hint hint in _hintDB)
-        {
-            System.Console.WriteLine(hint);
         }
     }
 
@@ -118,11 +106,6 @@ public class HintRepository
         AddRoomHints(eHint1);
         AddRoomHints(eHint2);
         AddRoomHints(eHint3);
-
-        // foreach (RoomHint roomhint in _rHintDB)
-        // {
-        //     System.Console.WriteLine(roomhint);
-        // }
     }
 
     public void SeedMediumRoom()
@@ -183,18 +166,18 @@ public class HintRepository
                 new Hint
                 {
                     HintID = 1,
-                    sentenceH = "Medium unknown hint 1"
+                    sentenceH = "Medium clock hint 1"
                 },
 
                 new Hint
                 {
                     HintID = 2,
-                    sentenceH = "Medium unknown hint 2"
+                    sentenceH = "Medium clock hint 2"
                 },
                 new Hint
                 {
                     HintID = 3,
-                    sentenceH = "Medium unknown hint 3"
+                    sentenceH = "Medium clock hint 3"
                 }
             }
         };
@@ -260,18 +243,18 @@ public class HintRepository
                 new Hint
                 {
                     HintID = 1,
-                    sentenceH = "Hard unknown hint 1"
+                    sentenceH = "Hard candle hint 1"
                 },
 
                 new Hint
                 {
                     HintID = 2,
-                    sentenceH = "Hard unknown hint 2"
+                    sentenceH = "Hard candle hint 2"
                 },
                 new Hint
                 {
                     HintID = 3,
-                    sentenceH = "Hard unknown hint 3"
+                    sentenceH = "Hard candle hint 3"
                 }
             }
         };

@@ -22,30 +22,13 @@ public class EscapeRoomRepository
 
     public EscapeRoom GetEscapeRoom()
     {
-        // L.I.N.Q
-
         return _escRoomDb.FirstOrDefault()!;
-        // return _escRoomDb.Find(h => h.ID == id)!;
-        // return _escRoomDb.First();
-        // return _escRoomDb.Single();
-        // return _escRoomDb.SingleOrDefault(x=>x.ID ==id);
-        // return _escRoomDb.Last();
     }
     public void SeedEscapeRoomData()
     {
         var escapeRoom = new EscapeRoom();
         escapeRoom.HintsInRoom = _escRoomHintRepo.GetHints();
-        // escapeRoom.RiddlesInRoom = _escRoomRiddleRepo.//* GetRiddle() or what ever it is called.
+        escapeRoom.RiddlesInRoom = _escRoomRiddleRepo.GetRiddles();
         AddEscapeRoom(escapeRoom);
     }
 }
-
-/*
-    ! what i need to pull up all information regarding rooms
-    * Easy Riddle
-    * Easy Riddle Hints 
-    * Medium Riddle
-    * Medium Riddle Hints 
-    * Hard Riddle
-    * Hard Riddle Hints 
-*/

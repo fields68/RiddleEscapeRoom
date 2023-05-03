@@ -4,116 +4,14 @@ public class RoomHint
     // Unique Identifier
     public RiddleDifficulty Difficulty { get; set; }
     public int HintID { get; set; }
-    // public string Hint { get; set; }
-    // public List<Hint> Hints { get; set; } = new List<Hint>();
+
     public List<Hint> Hints { get; set; } = new List<Hint>();
 
 
     public override string ToString()
     {
-        // switch (Difficulty)
-        // {
-        //     case RiddleDifficulty.Easy:
-        //         string hintSentence1 = PrintHint(1);
-        //         string hintSentence2 = PrintHint(1);
-        //         string hintSentence3 = PrintHint(1);
-        //         break;
-        //     case RiddleDifficulty.Medium:
-        //         break;
-        //     case RiddleDifficulty.Hard:
-        //         break;
-        //     default:
-        //         break;
-        // }
-
         return "HintID " + HintID + "\nDifficulty: " + Difficulty + "\n Sentence " + Hints[0];
     }
 
-    // public string PrintHint(int i)
-    // {
-    //     string sHint1 = "";
-    //     string sHint2 = "";
-    //     string sHint3 = "";
-    //     foreach (Hint hint in Hints)
-    //     {
-    //         string hintVar = "";
-    //         int _count = 0;
-    //         _count++;
-    //         sHint + "{i}" = hint;
-    //         System.Console.WriteLine(hint);
-    //     }
-    //     switch (i)
-    //     {
-    //         case 1:
-    //             break;
-    //         default:
-    //             break;
-    //     }
-
-    // return Hints;
-    // {
-    // }
-    // }
-    // public void AddRoomHints()
-    // {
-    // room hints, details
-    // }
-
-    // public void EasyRiddleCF() //? Add back once riddleID is populated
-    // {
-    //     switch (riddleID)
-    //     {
-    //         case 0:
-    //             break;
-    //         case 1:
-    //             break;
-    //         case 2:
-    //             break;
-    //         default:
-    //             break;
-    //     }
-
-    // }
-    // public void MiddleRiddleCF()
-    // {
-    //     switch (riddleID)
-    //     {
-    //         case 0:
-    //             break;
-    //         case 1:
-    //             break;
-    //         case 2:
-    //             break;
-    //         default:
-    //             break;
-    //     }
-    // }
-    // public void HardRiddleCF()
-    // {
-    //     switch (riddleID)
-    //     {
-    //         case 0:
-    //             break;
-    //         case 1:
-    //             break;
-    //         case 2:
-    //             break;
-    //         default:
-    //             break;
-    //     }
-    // }
-
-    // TODO: May need to incorporate into code later
-    // ! had 11 references in Haunted House
-    // public List<Challenge> Challenges { get; set; } = new List<Challenge>();
-
-    // ! had 0 references in Haunted House
-    // public void PrintChallenges()
-    // {
-    //     foreach (Challenge challenge in Challenges)
-    //     {
-    //         System.Console.WriteLine(challenge);
-    //     }
-    // }
 
 }

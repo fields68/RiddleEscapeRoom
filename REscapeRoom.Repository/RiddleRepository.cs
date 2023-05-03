@@ -10,6 +10,11 @@ public class RiddleRepository
 
     private int _count = 0;
 
+    public List<Riddle> GetRiddles()
+    {
+        return _riddleDB;
+    }
+
     public bool AddRiddle(Riddle riddle)
     {
         if (riddle is null)
@@ -97,6 +102,13 @@ public class RiddleRepository
                     Title = "You have me today, Tomorrow you'll have more; As your time passes, I'm not easy to store; I don't take up space, But I'm only in one place; I am what you saw, But not what you see. What am I?",
                     Answer = "memories",
                     ID = 2
+                },
+
+                new Question
+                {
+                    Title = "I add 5 to 9 and get 2. The answer is correct, so what am I? ",
+                    Answer = "clock",
+                    ID = 2
                 }
             }
         };
@@ -119,6 +131,13 @@ public class RiddleRepository
                     Answer = "heroine",
                     ID = 2
                 },
+
+                new Question
+                {
+                    Title = "You measure my life in hours and I serve you by expiring. I'm quick when I'm thin and slow when I'm fat. The wind is my enemy. ",
+                    Answer = "candle",
+                    ID = 3
+                }
             }
         };
 
