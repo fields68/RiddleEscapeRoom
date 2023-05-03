@@ -316,7 +316,6 @@ public class ProgramUI
         Clear();
         WriteLine("YAY you escaped!!!");
         // YAY you escaped!
-        IsRunning = CloseGame();
     }
     private void DeadGameEnd()
     {
