@@ -41,18 +41,18 @@ public class HintRepository
                 new Hint
                 {
                     HintID = 1,
-                    sentenceH = "Easy Fire hint 1"
+                    sentenceH = "You start to sweat as temperature rises."
                 },
 
                 new Hint
                 {
                     HintID = 2,
-                    sentenceH = "Easy Fire hint 2"
+                    sentenceH = "It can be different colors depending on an element."
                 },
                 new Hint
                 {
                     HintID = 3,
-                    sentenceH = "Easy Fire hint 3"
+                    sentenceH = "Typically you want to have control over this."
                 }
             }
         };
@@ -119,18 +119,18 @@ public class HintRepository
                 new Hint
                 {
                     HintID = 1,
-                    sentenceH = "Medium r hint 1"
+                    sentenceH = "It looks like an arch"
                 },
 
                 new Hint
                 {
                     HintID = 2,
-                    sentenceH = "Medium r hint 2"
+                    sentenceH = "It's an alphabet letter"
                 },
                 new Hint
                 {
                     HintID = 3,
-                    sentenceH = "Medium r hint 3"
+                    sentenceH = "Spell March and April"
                 }
             }
         };
@@ -196,18 +196,18 @@ public class HintRepository
                 new Hint
                 {
                     HintID = 1,
-                    sentenceH = "Hard eye hint 1"
+                    sentenceH = "It's a great sight to behold"
                 },
 
                 new Hint
                 {
                     HintID = 2,
-                    sentenceH = "Hard eye hint 2"
+                    sentenceH = "It's stacked between two lids"
                 },
                 new Hint
                 {
                     HintID = 3,
-                    sentenceH = "Hard eye hint 3"
+                    sentenceH = "One of your 5 senses"
                 }
             }
         };
