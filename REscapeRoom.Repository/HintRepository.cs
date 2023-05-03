@@ -65,18 +65,18 @@ public class HintRepository
                 new Hint
                 {
                     HintID = 1,
-                    sentenceH = "Easy M hint 1"
+                    sentenceH = "It has 4 ticks."
                 },
 
                 new Hint
                 {
                     HintID = 2,
-                    sentenceH = "Easy M hint 2"
+                    sentenceH = "It has a V shape in the middle."
                 },
                 new Hint
                 {
                     HintID = 3,
-                    sentenceH = "Easy M hint 3"
+                    sentenceH = "You may use this letter to describe a good meal."
                 }
             }
         };
@@ -88,18 +88,18 @@ public class HintRepository
                 new Hint
                 {
                     HintID = 1,
-                    sentenceH = "Easy paino hint 1"
+                    sentenceH = "The keys are flat."
                 },
 
                 new Hint
                 {
                     HintID = 2,
-                    sentenceH = "Easy paino hint 2"
+                    sentenceH = "All the keys are black and white."
                 },
                 new Hint
                 {
                     HintID = 3,
-                    sentenceH = "Easy paino hint 3"
+                    sentenceH = "You cannot hold it."
                 }
             }
         };
@@ -143,18 +143,18 @@ public class HintRepository
                 new Hint
                 {
                     HintID = 1,
-                    sentenceH = "Medium memories hint 1"
+                    sentenceH = "Only you have it but you can share it."
                 },
 
                 new Hint
                 {
                     HintID = 2,
-                    sentenceH = "Medium memories hint 2"
+                    sentenceH = "It can bring tears or smiles."
                 },
                 new Hint
                 {
                     HintID = 3,
-                    sentenceH = "Medium memories hint 3"
+                    sentenceH = "It can get you in trouble sometimes."
                 }
             }
         };
@@ -166,18 +166,18 @@ public class HintRepository
                 new Hint
                 {
                     HintID = 1,
-                    sentenceH = "Medium clock hint 1"
+                    sentenceH = "It always start at 9am."
                 },
 
                 new Hint
                 {
                     HintID = 2,
-                    sentenceH = "Medium clock hint 2"
+                    sentenceH = "It will never wait for you."
                 },
                 new Hint
                 {
                     HintID = 3,
-                    sentenceH = "Medium clock hint 3"
+                    sentenceH = "It has numbers on it."
                 }
             }
         };
@@ -243,18 +243,18 @@ public class HintRepository
                 new Hint
                 {
                     HintID = 1,
-                    sentenceH = "Hard candle hint 1"
+                    sentenceH = "It comes handy in darkness."
                 },
 
                 new Hint
                 {
                     HintID = 2,
-                    sentenceH = "Hard candle hint 2"
+                    sentenceH = "It has WICK inside"
                 },
                 new Hint
                 {
                     HintID = 3,
-                    sentenceH = "Hard candle hint 3"
+                    sentenceH = "Sometimes an air freshener."
                 }
             }
         };
